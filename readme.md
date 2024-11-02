@@ -8,13 +8,13 @@ Tenho como objetivo "provar" que eu sei programar em python e que sei usar SQLit
 escrevir em inglês porque estou treinando ele, o inglês no caso (.-.)
 
 	files
-	 config.py - all constants, paths e etc.
-   build.py - create build
-	 __main__.py - main window
-	 ./assests - place of the images
-	 ./data/(languages, tasks).db - your tasks in sqlite
-	 ./_class/database.py - class to facilitate the task manager
-	 ./components/(btn, task, etc).py - class to facilitate the make gui
+	config.py - all constants, paths e etc.
+	build.py - create build
+	__main__.py - main window
+	./assests - place of the images
+	./data/(languages, tasks).db - your tasks in sqlite
+	./_class/database.py - class to facilitate the task manager
+	./components/(btn, task, etc).py - class to facilitate the make gui
 
 	template database tasks 
 	 title: TEXT
