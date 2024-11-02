@@ -1,0 +1,8 @@
+[project]
+name = "pylist"
+version = "0.1.0"
+description = "A task-list with gui"
+readme = "README.md"
+authors = [
+  {name = "Luan Kaike", email = "luankaikemacksantos@gmail.com"},
+]
