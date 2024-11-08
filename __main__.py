@@ -11,17 +11,12 @@ class Window(tk.Tk):
 		self.constructor()
 
 	def def_styles(self):
-		for c in range(2):
-			self.columnconfigure(c, weight=1)
-		for r in range(9):
-			self.rowconfigure(r, weight=1)
-
 		self.style = ttk.Style()
 		self.style.configure('LateralBar.TFrame', background='red')
 	
 	def constructor(self):
 		ttk.Button().place()
-		LateralBar(self).place(rely=0, relx=0, relheight=1, relwidth=.3)
+		LateralBar(self, style='LateralBar.TFrame').place(rely=0, relx=0, relheight=1, relwidth=.3)
 
 window = Window()
 window.mainloop()
